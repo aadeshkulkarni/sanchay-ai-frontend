@@ -9,88 +9,88 @@ const Projects = () => {
     </div>
   );
 };
-
+/* TODO: Put in a separate file and accept data as props, make the component presentational */
 const Table = () => (
   <table className="text-gray-700 border-collapse border border-slate-400 w-full">
     <thead>
       <tr className="p-2">
-        <th class="border border-slate-300 p-2">Project</th>
-        <th class="border border-slate-300">Video URL</th>
-        <th class="border border-slate-300">Transcription</th>
-        <th class="border border-slate-300">Subtitles</th>
-        <th class="border border-slate-300">Thumbnail</th>
+        <th className="border border-slate-300 p-2">Project</th>
+        <th className="border border-slate-300">Video URL</th>
+        <th className="border border-slate-300">Transcription</th>
+        <th className="border border-slate-300">Subtitles</th>
+        <th className="border border-slate-300">Thumbnail</th>
       </tr>
     </thead>
     <tbody className="text-sm">
       <tr>
-        <td class="border border-slate-300 p-2">Tech 2024</td>
-        <td class="border border-slate-300">https://google.com</td>
-        <td class="border border-slate-300">transcription.txt</td>
-        <td class="border border-slate-300">subtitle.vtt</td>
-        <td class="border border-slate-300">thumbnail.png</td>
+        <td className="border border-slate-300 p-2">Tech 2024</td>
+        <td className="border border-slate-300">https://google.com</td>
+        <td className="border border-slate-300">transcription.txt</td>
+        <td className="border border-slate-300">subtitle.vtt</td>
+        <td className="border border-slate-300">thumbnail.png</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 p-2">Tech 2024</td>
-        <td class="border border-slate-300">https://google.com</td>
-        <td class="border border-slate-300">transcription.txt</td>
-        <td class="border border-slate-300">subtitle.vtt</td>
-        <td class="border border-slate-300">thumbnail.png</td>
+        <td className="border border-slate-300 p-2">Tech 2024</td>
+        <td className="border border-slate-300">https://google.com</td>
+        <td className="border border-slate-300">transcription.txt</td>
+        <td className="border border-slate-300">subtitle.vtt</td>
+        <td className="border border-slate-300">thumbnail.png</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 p-2">Tech 2024</td>
-        <td class="border border-slate-300">https://google.com</td>
-        <td class="border border-slate-300">transcription.txt</td>
-        <td class="border border-slate-300">subtitle.vtt</td>
-        <td class="border border-slate-300">thumbnail.png</td>
+        <td className="border border-slate-300 p-2">Tech 2024</td>
+        <td className="border border-slate-300">https://google.com</td>
+        <td className="border border-slate-300">transcription.txt</td>
+        <td className="border border-slate-300">subtitle.vtt</td>
+        <td className="border border-slate-300">thumbnail.png</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 p-2">Tech 2024</td>
-        <td class="border border-slate-300">https://google.com</td>
-        <td class="border border-slate-300">transcription.txt</td>
-        <td class="border border-slate-300">subtitle.vtt</td>
-        <td class="border border-slate-300">thumbnail.png</td>
+        <td className="border border-slate-300 p-2">Tech 2024</td>
+        <td className="border border-slate-300">https://google.com</td>
+        <td className="border border-slate-300">transcription.txt</td>
+        <td className="border border-slate-300">subtitle.vtt</td>
+        <td className="border border-slate-300">thumbnail.png</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 p-2">Tech 2024</td>
-        <td class="border border-slate-300">https://google.com</td>
-        <td class="border border-slate-300">transcription.txt</td>
-        <td class="border border-slate-300">subtitle.vtt</td>
-        <td class="border border-slate-300">thumbnail.png</td>
+        <td className="border border-slate-300 p-2">Tech 2024</td>
+        <td className="border border-slate-300">https://google.com</td>
+        <td className="border border-slate-300">transcription.txt</td>
+        <td className="border border-slate-300">subtitle.vtt</td>
+        <td className="border border-slate-300">thumbnail.png</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 p-2">Tech 2024</td>
-        <td class="border border-slate-300">https://google.com</td>
-        <td class="border border-slate-300">transcription.txt</td>
-        <td class="border border-slate-300">subtitle.vtt</td>
-        <td class="border border-slate-300">thumbnail.png</td>
+        <td className="border border-slate-300 p-2">Tech 2024</td>
+        <td className="border border-slate-300">https://google.com</td>
+        <td className="border border-slate-300">transcription.txt</td>
+        <td className="border border-slate-300">subtitle.vtt</td>
+        <td className="border border-slate-300">thumbnail.png</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 p-2">Tech 2024</td>
-        <td class="border border-slate-300">https://google.com</td>
-        <td class="border border-slate-300">transcription.txt</td>
-        <td class="border border-slate-300">subtitle.vtt</td>
-        <td class="border border-slate-300">thumbnail.png</td>
+        <td className="border border-slate-300 p-2">Tech 2024</td>
+        <td className="border border-slate-300">https://google.com</td>
+        <td className="border border-slate-300">transcription.txt</td>
+        <td className="border border-slate-300">subtitle.vtt</td>
+        <td className="border border-slate-300">thumbnail.png</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 p-2">Tech 2024</td>
-        <td class="border border-slate-300">https://google.com</td>
-        <td class="border border-slate-300">transcription.txt</td>
-        <td class="border border-slate-300">subtitle.vtt</td>
-        <td class="border border-slate-300">thumbnail.png</td>
+        <td className="border border-slate-300 p-2">Tech 2024</td>
+        <td className="border border-slate-300">https://google.com</td>
+        <td className="border border-slate-300">transcription.txt</td>
+        <td className="border border-slate-300">subtitle.vtt</td>
+        <td className="border border-slate-300">thumbnail.png</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 p-2">Tech 2024</td>
-        <td class="border border-slate-300">https://google.com</td>
-        <td class="border border-slate-300">transcription.txt</td>
-        <td class="border border-slate-300">subtitle.vtt</td>
-        <td class="border border-slate-300">thumbnail.png</td>
+        <td className="border border-slate-300 p-2">Tech 2024</td>
+        <td className="border border-slate-300">https://google.com</td>
+        <td className="border border-slate-300">transcription.txt</td>
+        <td className="border border-slate-300">subtitle.vtt</td>
+        <td className="border border-slate-300">thumbnail.png</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 p-2">Tech 2024</td>
-        <td class="border border-slate-300">https://google.com</td>
-        <td class="border border-slate-300">transcription.txt</td>
-        <td class="border border-slate-300">subtitle.vtt</td>
-        <td class="border border-slate-300">thumbnail.png</td>
+        <td className="border border-slate-300 p-2">Tech 2024</td>
+        <td className="border border-slate-300">https://google.com</td>
+        <td className="border border-slate-300">transcription.txt</td>
+        <td className="border border-slate-300">subtitle.vtt</td>
+        <td className="border border-slate-300">thumbnail.png</td>
       </tr>
     </tbody>
   </table>
