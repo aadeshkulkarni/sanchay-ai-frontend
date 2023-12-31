@@ -11,11 +11,11 @@ const Login = () => {
     console.log(credentialResponseDecoded);
 
     // Redirect to the '/' route after successful login
-    navigate('/');
+    navigate('/main');
   };
 
   return (
-    <div>
+    <div className="flex justify-center items-center mt-12">
       
         <GoogleLogin
         onSuccess={handleLoginSuccess}

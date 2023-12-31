@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Main = () => {
   const [project, setProject] = useState("");
   const [videoURL, setVideoURL] = useState("");
@@ -29,7 +28,8 @@ const Main = () => {
 
   };
   return (
-    <div className="flex justify-center items-center mt-12">
+    <div>
+      <div className="flex justify-center items-center mt-12">
       <form onSubmit={(e) => e.preventDefault()} className="w-[600px] min-w-[400px] border border-gray-100 p-16 shadow-lg">
         <h3 className="p-4 text-xl">Video Information:</h3>
         <div className="px-4 py-2">
@@ -55,6 +55,11 @@ const Main = () => {
         </div>
       </form>
     </div>
+
+    </div>
+
+    
+    
   );
 };
 
