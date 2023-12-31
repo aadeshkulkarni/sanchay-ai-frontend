@@ -61,7 +61,9 @@ const Main = () => {
             name="transcription"
             value="transcription"
           />{" "}
-          <label for="transcription">Transcription</label>
+          <label className="cursor-pointer" for="transcription">
+            Transcription
+          </label>
         </div>
         <div className="px-4 py-2 grid grid-cols-12">
           <input
@@ -72,7 +74,9 @@ const Main = () => {
             name="subtitles"
             value="subtitles"
           />{" "}
-          <label for="subtitles">Subtitles</label>
+          <label className="cursor-pointer" for="subtitles">
+            Subtitles
+          </label>
         </div>
         <div className="px-4 py-2 grid grid-cols-12">
           <input
@@ -83,7 +87,9 @@ const Main = () => {
             name="thumbnail"
             value="thumbnail"
           />{" "}
-          <label for="thumbnail">Thumbnail</label>
+          <label className="cursor-pointer" for="thumbnail">
+            Thumbnail
+          </label>
         </div>
         <div className="px-4 py-2 w-full">
           <button

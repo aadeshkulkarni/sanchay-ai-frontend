@@ -1,6 +1,4 @@
-import { projects } from "../constants/projects";
-
-export const Table = () => (
+export const Table = ({ projects }) => (
   <table className="text-gray-700 border-collapse border border-slate-400 w-full">
     <thead>
       <tr className="p-2">
