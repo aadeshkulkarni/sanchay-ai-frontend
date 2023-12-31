@@ -1,7 +1,7 @@
 import Header from "./Components/Header";
 import Login from "./Components/Login";
 import Main from "./Components/Main";
-import Projects from "./Pages/Projects";
+import Projects from "./Components/Projects";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 const AppLayout = () => {
