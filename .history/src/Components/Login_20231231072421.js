@@ -5,7 +5,7 @@ import { jwtDecode } from "jwt-decode";
 const Login = () => {
   return (
     <div>
-      
+      <h1>Login using Google</h1>
         <GoogleLogin
           onSuccess={credentialResponse => {
           const credentialResponseDecoded = jwtDecode(credentialResponse.credential);
