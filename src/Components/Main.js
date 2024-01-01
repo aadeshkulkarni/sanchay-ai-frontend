@@ -57,9 +57,6 @@ const Main = () => {
     </div>
 
     </div>
-
-    
-    
   );
 };
 
