@@ -4,13 +4,10 @@ import {signInWithPopup ,onAuthStateChanged} from "firebase/auth"
 import { auth,provider } from '../config/firebaseConfig'
 import { useNavigate} from "react-router-dom"
 
-
 const Login = () => {
   const [user,setUser]=useState({});
   const navigate=useNavigate();
-
    /* SignInwithGoogle */
-   
   const signInWithGoogle=async()=>{
     try{
        const results= await signInWithPopup (auth,provider);
@@ -27,7 +24,6 @@ const Login = () => {
         console.log(err.message);
     }
   }
-
   useEffect(()=>{
     const unsubscribe=onAuthStateChanged(auth,(currentUser)=>{
       setUser(currentUser) 
@@ -36,8 +32,6 @@ const Login = () => {
       unsubscribe();
     }
   })
-
-
   return (
     <div className='w-full h-[80vh] flex flex-col justify-center items-center mx-auto'>
         <h1 className='p-4 text-xl text-gray-700 font-bold'>Login using Google</h1>
@@ -47,5 +41,4 @@ const Login = () => {
     </div>
   )
 }
-
 export default Login

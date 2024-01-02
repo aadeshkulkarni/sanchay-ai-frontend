@@ -11,7 +11,5 @@ const ProtectedRoute = () => {
  else{
   return(<Outlet/>)
  }
-
 }
-
 export default ProtectedRoute
