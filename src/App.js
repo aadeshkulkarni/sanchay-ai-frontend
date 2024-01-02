@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import Login from "./Components/Login";
 import Main from "./Components/Main";
 import Projects from "./Components/Projects";
+import ProtectedRoute from "./auth/ProtectedRoute"
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 const AppLayout = () => {
@@ -17,18 +18,24 @@ const router = createBrowserRouter([{
   path: "/",
   element: <AppLayout />,
   children: [
-    {
-      path: "/",
-      element: <Main />,
+    {  
+      element: <ProtectedRoute/>,
+        children:[
+        {
+          index:true, 
+          element:<Main/>
+        },
+        {
+          path: "projects",
+          element:<Projects/>,
+        },
+      ]
     },
     {
       path: "/login",
       element: <Login />,
     },
-    {
-      path: "projects",
-      element: <Projects />,
-    },
+   
   ]
 }]);
 
