@@ -17,8 +17,9 @@ export const Table = ({ projects }) => (
           transcriptionFile,
           subtitleFile,
           thumbailImg,
+          id
         }) => (
-          <tr>
+          <tr key={id}>
             <td className="border border-slate-300 p-2">{projectName}</td>
             <td className="border border-slate-300">{projectLink}</td>
             <td className="border border-slate-300">{transcriptionFile}</td>
